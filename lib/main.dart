@@ -77,7 +77,7 @@ class _CounterState extends State<Counter> {
     print('clic');
     await Future.delayed(Duration(seconds: 1));
     setState(() {
-      count = random.nextInt(5)+1;
+      count = random.nextInt(6);
       isLoading=false;
     });
   }
